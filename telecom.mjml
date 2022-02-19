@@ -1,0 +1,180 @@
+<mjml>
+    <mj-head>
+        <mj-title>У нас к вам деловое предложение</mj-title>
+         <mj-preview>У нас к вам деловое предложение</mj-preview>
+         <mj-style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+         body {
+             font-family: 'Roboto', sans-serif;
+         }
+            .images div {
+                display: flex;
+                justify-content:space-between;
+            }
+            .bg-s2 {
+                background-image: url(./Group131.png);
+                background-repeat: no-repeat;
+                display: flex;
+                color:white;
+            }
+            .bg-s2 p {
+                color:white;
+            }
+            .bg-s2 div {
+                display: flex;
+                <!-- flex-wrap:wrap; -->
+            }
+            .pos1 {
+                position:relative;
+                z-index: 3  ;
+            }
+            .pos2 {
+                position:relative;
+                z-index: 1;
+            }
+            .prost h4{
+                max-width:332px;
+                background: linear-gradient(135deg, #0D6DC3 0%, #0F79D7 100%);
+                box-shadow: 9px 7px 22px rgba(28, 122, 205, 0.63);
+                border-radius: 20px;
+                font-weight: 400;
+                display: flex;
+                line-height: 20px;
+            }
+            .prost h4 div{
+                display: flex;
+                flex-direction:column;
+            }
+            .prost h4 span{
+                font-weight: 600;
+            }
+            .prost p {
+                color:white;
+            }
+            .im1{
+                transform:translate(20px, -30px);
+            }
+            .img1 {
+                transform:translateY(90px);
+                margin-right:20px;
+            }
+            .bg-top{
+                padding:23px 0px 23px 23px;
+                border-radius: 16.5902px;
+            }
+            .des-text div {
+                display: flex;
+                justify-content:center;
+                flex-wrap:wrap;
+            }
+            .des-text div p {
+               font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 170%;
+                color: #6D6D6D;
+                padding:20px;
+            }
+            .wait div {
+                display: flex;
+                flex-direction:column;
+                align-items:center
+            }
+            .wait div h3 {
+                color: #0E5FAB;
+            }
+            .wait div p {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 130%;
+                color: #6D6D6D;
+                margin-top:35px;
+            }
+            .btns {
+                width: 184px;
+                height: 43px;
+                background: #0E60AB;
+                backdrop-filter: blur(7px);
+                border-radius: 6px;
+                border: none;
+            }
+            .btns a{
+               color:white;
+               text-decoration: none;
+               font-size: 14px;
+            }
+            .img12 {
+                max-width:50%;
+            }
+         </mj-style>
+    </mj-head>
+
+  <mj-body width="600px">
+    <mj-section padding="0">
+        <mj-column width="100%" background-color="#F7F7F7" >
+            <mj-text color="#0E5FAB" align="center" font-size="16px" line-height="170%" font-weight="600">
+                <p>
+                    У нас к вам деловое предложение
+                </p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+        <mj-column 
+        width="100%" 
+        background-color="#FFFCFC"
+        css-class="images"
+        >
+         <mj-text css-class="images">
+            <img width="146px" height="23px" src="tel1.svg" />
+            <img width="60px" height="63px" src="ismet.svg" />
+         </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0" >
+        <mj-column width="100%" background-color="#F7F7F7" css-class="pos1">
+            <mj-text height="227px" css-class="bg-s2">
+                <mj-text css-class="text-color">
+                <div>
+                    <span>
+                        <p>Здравствуйте!</p>
+                        <p>Казахтелеком бизнес для своих новых клиентов - индивидуальных предпринимателей продлил и обновил акцию «Деловое предложение». Она стала еще интереснее и вкуснее.</p>
+                    </span>
+                    <img class="img12" src="Billy79.png" alt="">
+                </div>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+        <mj-column background-color="#FFFCFC" css-class="pos2">
+            <mj-text css-class="prost">
+                <h4>
+                    <p class="bg-top"><span>Все просто!</span><br>
+                    Подключаете пакет услуг Unibox или собираете свой собственный и участвуете 
+                    <span>в розыгрыше iPhone 13, 128 Gb.</span></p>
+                    <mj-text class="img1"><div><img src="Apple_perspective_matte 2.png" width="41" height="41" alt="">
+                    <img width="52" height="52" src="17254 1.png" alt="" class="im1"></div></mj-text>
+                </h4>
+             </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+        <mj-column background-color="#FFFCFC" css-class="pos2">
+            <mj-text css-class="des-text">
+                <p>Розыгрыш проходит каждый месяц. </p>
+                <p>Период акции: январь – ноябрь 2022 г.</p>
+             </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+        <mj-column background-color="#FFFCFC" css-class="pos2">
+            <mj-text css-class="wait">
+                <h3 align="center">Не ждите. Если вам интересна эта акция</h3>
+                <button class="btns" type=""><a href="#">Жмите здесь</a></button>
+                <p align="center">*Акция только для новых клиентов - индивидуальных предприниматей компании, но не расстраивайтесь для наших постоянных клиентов есть другие интересные предложения. Чтобы попасть в список участников розыгрыша, необходимо пользоваться подключенными  услугами.
+                </p>
+             </mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
